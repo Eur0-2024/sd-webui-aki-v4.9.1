@@ -36,10 +36,11 @@ model:
         attention_resolutions: [ 4, 2, 1 ]
         num_res_blocks: 2
         channel_mult: [ 1, 2, 4, 4 ]
-        num_heads: 8
+        num_head_channels: 64
         use_spatial_transformer: True
+        use_linear_in_transformer: True
         transformer_depth: 1
-        context_dim: 768
+        context_dim: 1024
         use_checkpoint: False
         legacy: False
 
@@ -67,4 +68,6 @@ model:
           target: torch.nn.Identity
 
     cond_stage_config:
-      target: ldm.modules.encoders.modules.FrozenCLIPEmbedder
+      target: modules.xlmr_m18.BertSeriesModelWithTransformation
+      params:
+        name: "XLMR-Large"
