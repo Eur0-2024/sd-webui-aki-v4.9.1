@@ -1,0 +1,2 @@
+整合包作者：bilibili@秋葉aaaki https://space.bilibili.com/12566101
+AI 绘画内核【Stable Diffusion WebUI】为开源项目，以及启动器【绘世】是完全免费的软件，严禁倒卖。如有发现，请及时举报。
