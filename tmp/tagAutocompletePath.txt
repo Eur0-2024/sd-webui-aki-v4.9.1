@@ -1,1 +1,1 @@
-extensions/a1111-sd-webui-tagcomplete/tags
+D:/NUC_Shared_D/Download/Tools/sd-webui-aki/sd-webui-aki-v4.9.1/extensions/a1111-sd-webui-tagcomplete/tags
