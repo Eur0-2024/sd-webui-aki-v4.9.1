@@ -33,3 +33,5 @@ torchsde==0.2.6
 transformers==4.30.2
 httpx==0.24.1
 pillow-avif-plugin==1.4.3
+###additional added by euro
+xformers
